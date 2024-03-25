@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Alata", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+
+.main-div {
+    background-image: url(doctors.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 45vw;
+
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+}
+
+.healthy-care-image img {
+    height: 5vw;
+    width: 15vw;
+    object-fit: contain;
+    margin-top: 1vw;
+}
+
+.blue-box-div {
+    background-color: blue;
+    width: 37vw;
+    margin-left: 30vw;
+    border: 2px solid blue;
+    border-radius: 1.25vw 0.44vw 1.25vw 0.32vw;
+    margin-top: 35vw;
+    color: white;
+}
+
+.blue-box-div h1 {
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
+    text-align: center;
+}
+
+.light-blue-box {
+    background-color: aqua;
+    color: white;
+    width: 32vw;
+    height: 3vw;
+    font-size: 1vw;
+    margin-left: 32vw;
+}
+
+.light-blue-box h1 {
+    margin-left: 3vw;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+.colon img{
+    height: 2.5vw;
+    width: 4vw;
+}
+.about-us-png img{
+    height: 5vw;
+    width: 19vw;
+
+}
+.paragraph{
+    width: 35vw;
+    font-size: 1.2vw;
+}
+
+
+.middle-part{
+    display: flex;
+    justify-content: space-between;
+}
+.second-part{
+    margin-top: 4vw;
+    margin-right: 10vw;
+}
+
+.child-img{
+    margin-left: 10vw;
+}
+.background-color{
+    background-color: blue;
+    height: 20vw;
+    width: 30vw;
+    border-radius: 5.38vw 0.44vw 1.25vw 0.32vw;
+}
+
+.child-img img{
+    height: 20vw;
+    width: 29vw;
+}
+
+.grey-line {
+    background-color: gray;
+    height: 0.1vw;
+    width: 35vw;
+    margin-left:vw;
+    margin-top: 2vw;
+
+}
+.special-attention img{
+    height: 5vw;
+    width: 17vw;
+    margin-left: 18vw;
+
+}
+
+
+.test {
+    display: flex;
+}
+
+.blue-circle-1 {
+    background-color: blue;
+    border-radius: 50%;
+    height: 5.5vw;
+    width: 5.5vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.blue-circle-1 img {
+    margin-top: 0.5vw;
+    margin-left: 0.7vw;
+    height: 4vw;
+    width: 4vw;
+}
+
+.blue-circle-1 h2 {
+    margin-top: 1vw;
+    margin-left: 1vw;
+    font-size: 0.9vw;
+    color: blue;
+}
+
+.blue-circle-1 h3 {
+    letter-spacing: 0.1vw;
+    font-size: 0.7vw;
+    margin-left: 0.5vw;
+    color: rgba(0, 0, 255, 0.919);
+}
+
+.blue-line {
+    background-color: blue;
+    height: 0.3vw;
+    width: 6vw;
+    margin-top: 0.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.blue-circle-2 {
+    background-color: blue;
+    border-radius: 50%;
+    height: 5.5vw;
+    width: 5.5vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.blue-circle-2 img {
+    margin-top: 0.5vw;
+    margin-left: 1.4vw;
+    height: 4vw;
+    width: 4vw;
+}
+
+.blue-circle-2 h2 {
+    margin-top: 1vw;
+    font-size: 0.9vw;
+    color: blue;
+}
+
+.blue-circle-2 h3 {
+    letter-spacing: 0.1vw;
+    font-size: 0.7vw;
+    margin-left: 1vw;
+    color: rgba(0, 0, 255, 0.919);
+}
+
+.blue-circle-3 {
+    background-color: blue;
+    border-radius: 50%;
+    height: 5.5vw;
+    width: 5.5vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.blue-circle-3 img {
+    margin-top: 0.5vw;
+    margin-left: 0.7vw;
+    height: 4vw;
+    width: 4vw;
+}
+
+.blue-circle-3 h2 {
+    margin-top: 1vw;
+    font-size: 0.9vw;
+    color: blue;
+    margin-left: 1.5vw;
+}
+.blue-circle-3 h3{
+    letter-spacing: 0.1vw;
+    font-size: 0.7vw;
+    margin-left: 1.5vw;
+    color: rgba(0, 0, 255, 0.919);
+}
+
+.contact-us{
+    margin-left: 4vw;
+    margin-top: 5vw;
+}
+
+.contact-us h1{
+    font-size: 1.5vw;
+    color: blue;
+}
+.contact-us h2 {
+    font-size: 1vw;
+    color: rgba(0, 0, 255, 0.741);
+    font-weight: 100;
+}
+
+
+.contact-us-part-2{
+    display: flex;
+}
+
+.globe-image img{
+    height: 2vw;
+    width: 2vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.globe-text{
+    margin-top: 1.4vw;
+    margin-left: 1vw;
+    font-size: 0.7vw;
+    color: blue;
+}
+
+.X-image img{
+   margin-left: 15vw;
+   height: 2.5vw;  
+   width: 2.5vw;
+   margin-top: 0.5vw;
+}
+
+.insta-image img{
+    margin-left: 2vw;
+    height: 2.5vw;  
+    width: 2.5vw;
+    margin-top: 0.5vw;
+}
+
+.facebook-image img{
+    margin-left: 2vw;
+    height: 2.5vw;  
+    width: 2.5vw;
+    margin-top: 0.5vw;
+}
+.flex-box-two{
+    display: flex;
+    flex-direction: column;
+}
+.dark-blue-box{
+    background-color:blue;
+    height: 3vw;
+    width: 35vw;
+    border-radius: 2.56vw 0vw 0vw 0vw;
+    margin-left: 15vw;
+}
+
+.dark-blue-box h2{
+    color: white;
+    margin-left: 20vw;
+    font-size: 2vw;
+}
+.light-blue-box-2{
+    background-color: aqua;
+    height: 27vw;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    
+}
+
+
+
+.lorem-content-1 h2{
+    margin-left: 23vw;
+    color: white;
+    font-size: 1.7vw;
+    margin-top: 2vw;
+
+}
+
+.lorem-content-1 p{
+    margin-left: 12.5vw;
+    width: 22.5vw;
+    color: white;
+    font-size: 1vw;
+}
+.last-part{
+    display: flex;
+    justify-content:center ;
+    margin-right: 35vw;
+    
+}
+.last-part img{
+    height: 5.5vw;
+    width: 5.5vw;
+    
+} 
+
+/* media-query */
+
+@media(max-width: 640px){
+    .main-div {
+        background-image: url(doctors.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 90vw;
+    
+    }
+
+    .blue-box-div {
+        background-color: blue;
+        width: 37vw;
+        margin-left: 30vw;
+        border: 2px solid blue;
+        border-radius: 1.25vw 0.44vw 1.25vw 0.32vw;
+        margin-top: 77vw;
+        color: white;
+    }
+    
+    .blue-box-div h1 {
+        font-size: 3vw;
+        letter-spacing: 0.5vw;
+        text-align: center;
+    }
+    
+    .light-blue-box {
+        background-color: aqua;
+        color: white;
+        width: 32vw;
+        height: 3vw;
+        font-size: 1vw;
+        margin-left: 32vw;
+    }
+    
+    .light-blue-box h1 {
+        margin-left: 3vw;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vw;
+        margin-left: 3vw;
+    }
+    .colon img{
+        height: 2.5vw;
+        width: 4vw;
+    }
+    .about-us-png img{
+        height: 5vw;
+        width: 19vw;
+    
+    }
+    .paragraph{
+        width: 35vw;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+    }
+
+    .child-img{
+        margin-left: 10vw;
+        margin-top: 35vw;
+    }
+    .background-color{
+        background-color: blue;
+        height: 20vw;
+        width: 30vw;
+        border-radius: 5.38vw 0.44vw 1.25vw 0.32vw;
+    }
+    
+    .child-img img{
+        height: 20vw;
+        width: 29vw;
+    }
+
+    .blue-circle-1{
+        margin-top: 12vw;
+    }
+    .blue-circle-2{
+        margin-top: 12vw;
+    }
+    
+    .blue-circle-3{
+        margin-top: 12vw;
+    }
+
+    .contact-us{
+        margin-top: 20vw;
+    }
+
+    .globe-text{
+        margin-top: 4vw;
+    }
+
+    .dark-blue-box{
+        margin-top: 15vw;
+    }
+    .light-blue-box-2{
+        height: 35vw;
+    }
+
+    .globe-image img{
+            margin-top: 10vw;
+    }
+    
+    .globe-text h2{
+        margin-top: 6.2vw;
+}
+   
+    .last-part img{
+        margin-top: 4vw;
+        height: 8vw;
+        width: 8vw;
+    }
+
+.X-image img{
+    margin-top: 9vw;
+}
+
+.insta-image img{
+    margin-top: 9vw;
+}
+
+.facebook-image img{
+    margin-top: 9vw;
+}
+    
+    
+}
+
+
+
+
+ 
+
